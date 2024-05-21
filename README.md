@@ -74,16 +74,18 @@ ls
 
 ## Deployment
 
-- The site was deployed using netlify. The steps to deploy are as follows:
+- The site was remotely stored in github and deployed using netlify. The steps to deploy are as follows:
 
-1. From the github repository click on "settings" from the navigation bar.
-2. Click on "pages" from navigation section on the left.
-3. In the "source" section choose which branch you want to use from the dropdown menu, it will usually be the "main".
-4. Select which folder you want to use, in most cases its the "/root".
-5. Hit the "save" button, then wait for your site to be published.(This can take some time.)
-6. When your site is ready and published the link will be above the "source" section
-
-The live link can be found [here](https://gfomengia.github.io/data-visualisation-pp1/)
+1. Go to [Netlify](https://www.netlify.com/) and set up a free account if you do not have one.
+2. Click on "Builds" from navigation section on the left.
+3. Next, click on 'New site from Git'
+4. 
+5. Select 'Deploy with Github
+6. Follow the intructions on the screen: Authenticate and select the github account to install netlify, then select the repository containing the website to deploy.
+7. Back to netlify do the following settings: Site name, branch to deploy: main, publish directory: _site
+8. Click on 'deploy'
+9. the live url is gotten from Sites ->  sleclect the site -> site configuration
+The live link can be found [here](https://whetherweather-nfg-hdip-2024.netlify.app/)
 
 
 ## Media
