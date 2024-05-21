@@ -84,7 +84,8 @@ ls
 6. Follow the intructions on the screen: Authenticate and select the github account to install netlify, then select the repository containing the website to deploy.
 7. Back to netlify do the following settings: Site name, branch to deploy: main, publish directory: _site
 8. Click on 'deploy'
-9. the live url is gotten from Sites ->  sleclect the site -> site configuration
+9. The live url is gotten from Sites ->  seclect the site -> site configuration.
+
 The live link can be found [here](https://whetherweather-nfg-hdip-2024.netlify.app/)
 
 
