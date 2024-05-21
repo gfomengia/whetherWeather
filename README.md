@@ -78,13 +78,12 @@ ls
 
 1. Go to [Netlify](https://www.netlify.com/) and set up a free account if you do not have one.
 2. Click on "Builds" from navigation section on the left.
-3. Next, click on 'New site from Git'
-4. 
-5. Select 'Deploy with Github
-6. Follow the intructions on the screen: Authenticate and select the github account to install netlify, then select the repository containing the website to deploy.
-7. Back to netlify do the following settings: Site name, branch to deploy: main, publish directory: _site
-8. Click on 'deploy'
-9. The live url is gotten from Sites ->  seclect the site -> site configuration.
+3. Next, click on 'New site from Git' 
+4. Select 'Deploy with Github
+5. Follow the intructions on the screen: Authenticate and select the github account to install netlify, then select the repository containing the website to deploy.
+6. Back to netlify do the following settings: Site name, branch to deploy: main, publish directory: _site
+7. Click on 'deploy'
+8. The live url is gotten from Sites ->  seclect the site -> site configuration.
 
 The live link can be found [here](https://whetherweather-nfg-hdip-2024.netlify.app/)
 
