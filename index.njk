@@ -1,0 +1,25 @@
+---
+layout: layout.njk
+title: Dashboard
+subtitle: Today
+script: /js/pages/index.js
+---
+
+{# Currently all content is dynamic but you can add content here to save on javascript #}
+
+{% block header %}
+<header class="column is-12 has-text-centered">
+  <section class="section">
+    <div class="container has-text-centered">
+      <div class="title">
+        <p id="page-heading" class="title has-text-weight-bold">{{ title }}</p>
+        <p id="subHeading" class="subtitle is-4 has-text-weight-bold">{{subtitle}} </p>
+      </div>
+    </div>
+  </section>
+</header>
+{% endblock %}
+
+{% block content %}
+<!-- Additional content can go here -->
+{% endblock %}

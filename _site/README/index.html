@@ -1,0 +1,95 @@
+<h1>Whether Weather Forcast</h1>
+<p>The main purpose of this website is weather forcast application that displays weather information selected cities based on the user ssettings.</p>
+<p><img src="/images/dashboard.png" alt="Dashboard Display"></p>
+<h2>Features</h2>
+<h3>Existing Features</h3>
+<ul>
+<li>
+<p><strong>Navigation Bar</strong></p>
+<ul>
+<li>Navigation Bar featured three pages and a logo. This allows visitors to navigate effortlessly through the different pages.
+-Dashboard (Home page), City focus page and the Preference (User settings page).
+-The navigation bar also consit of a humburger menu for mobile devices</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/navbar-desktop.png" alt="Navigation bar-desktop">
+<img src="/images/navbar-mobile.png" alt="Navigation bar-mobile"></p>
+<p>ls</p>
+<ul>
+<li>
+<p><strong>Home Page</strong></p>
+<ul>
+<li>On first visit, the user is welcome with the dashboard that displays the current essential weather information(Temperature, wind speed) of some cities.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/dashboard.png" alt="Index page"></p>
+<ul>
+<li>
+<p><strong>City Focus Page</strong></p>
+<ul>
+<li>This sections displays the current weather information based on the current hour, maximum and minumum temperatures for the current day and the weekly summary over the next 7 days inclusing the current day.</li>
+</ul>
+<p><img src="/images/cityfocus.png" alt="City Focus Page"></p>
+</li>
+<li>
+<p><strong>User Settings or Preference Page</strong></p>
+<ul>
+<li>Here the user can select favorite cities and this will be displayed on the dashboard while the rest will be removed.</li>
+<li>Small business will benefit from the affortable services provided by Sixth Sense as it falls within their budjet.</li>
+</ul>
+<p><img src="/images/usersettings.png" alt="User settings">
+<img src="/images/dasboard-usersettings.png" alt="dashboard"></p>
+</li>
+<li>
+<p><strong>The Footer</strong></p>
+<ul>
+<li>A simple footer showing the year and the website name for branding and design.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/footer.png" alt="Footer"></p>
+<h3>Features Left to Implement</h3>
+<ul>
+<li>Add a more settings to the like temperature conversion from Celcius to Kelvin, Farenheit.</li>
+<li>Add a seach bar,
+-Add notificationstto the user for intance when certain temperature conditions are met.</li>
+</ul>
+<h2>Technologies Used</h2>
+<ul>
+<li>HTML</li>
+<li>Bulma CSS framework to style the pages using the mobile first desing approach per bulma docs. <a href="https://bulma.io/">Bulma CSS</a></li>
+<li>Javascript was used to inject dynamic weather data in to the html pages.</li>
+<li>11ty (ELeventy) was used to automate the page reloads as we develop the app and to also aid in templating.<a href="https://www.11ty.dev/">11ty(Eleventy)</a></li>
+<li>Nunjucks was use as templating the app as this helps to update content easily in one place rather than in multiple pages. <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a>
+.</li>
+</ul>
+<h2>Usage</h2>
+<ol>
+<li>Go to the preference page in your browser</li>
+<li>Select your favorite cities by checking the corresponding boxes</li>
+<li>Go then to the dashbord and to see the favorite city displayed</li>
+<li>Clicking on any city will take you to the focus city page where all the relevant weather information is showned for that city.</li>
+<li>Preferences are stored on localStorage which persist on page reload. However, browser cache clean will reset it to the default settings.</li>
+<li>On the city focus page, you can also load a new city by changing the city name in the address url of the search bar. Data is available for the following cities: cork, amsterdam, berlin, waterford, new york, paris, tromso, copenhagen and san francisco</li>
+</ol>
+<h2>Deployment</h2>
+<ul>
+<li>The site was deployed using netlify. The steps to deploy are as follows:</li>
+</ul>
+<ol>
+<li>From the github repository click on &quot;settings&quot; from the navigation bar.</li>
+<li>Click on &quot;pages&quot; from navigation section on the left.</li>
+<li>In the &quot;source&quot; section choose which branch you want to use from the dropdown menu, it will usually be the &quot;main&quot;.</li>
+<li>Select which folder you want to use, in most cases its the &quot;/root&quot;.</li>
+<li>Hit the &quot;save&quot; button, then wait for your site to be published.(This can take some time.)</li>
+<li>When your site is ready and published the link will be above the &quot;source&quot; section</li>
+</ol>
+<p>The live link can be found <a href="https://gfomengia.github.io/data-visualisation-pp1/">here</a></p>
+<h2>Media</h2>
+<ul>
+<li>The icons used in the app were all taken from <a href="https://boxicons.com/">Boxicons</a>.</li>
+</ul>
+<h2>License</h2>
+<p>-This project is licensed under the MIT License.</p>
